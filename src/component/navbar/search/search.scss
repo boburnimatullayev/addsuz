@@ -1,0 +1,31 @@
+@import "../../../style/varable.scss";
+
+.search-form{
+    position: relative;
+}
+
+.search-input {
+  width: 560px;
+  height: 46px;
+  padding: 23px;
+  outline: none;
+  background-color: $body-background;
+  border: none;
+  border-radius: $border-radius;
+  font-size: 16px;
+ 
+}
+
+input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 154.5%;
+    color: #b3b3b3;
+  }
+  .search-icon{
+    position: absolute;
+    top:15px;
+    right: 30px;
+    
+  }

@@ -1,0 +1,41 @@
+@import "../../../../style/varable.scss";
+
+
+.user{
+    position: relative;
+}
+.user-con{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $grayBackground;
+    margin-left: 16px;
+}
+
+
+
+
+.massage-con{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color:white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    right: 0px;
+}
+
+.massage{
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    
+}
+

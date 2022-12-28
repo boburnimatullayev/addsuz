@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+
+   $font-family: 'Source Sans Pro', sans-serif;
+   $wgrayColor:#8B8B8B;
+   $color-darc: #14191F;
+   $body-background: #F5F5F5;
+   $button-background:#1754F2;
+   $fallow-background:#DFE5F5;
+   $fallow-color:#1754F2;
+   $border-radius:8px;
+   $grayBackground: #F9F9F9;
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-family;
+}
+body{
+    background-color: $body-background;
+}
+  .container-site{
+    max-width: 1240px;
+    margin: 20px auto;
+   
+  }

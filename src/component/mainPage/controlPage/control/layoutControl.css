@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+.container-site {
+  max-width: 1240px;
+  margin: 20px auto;
+}
+
+.control-con {
+  width: 300px;
+  height: auto;
+  background-color: white;
+  display: flex;
+  border-radius: 6px;
+  flex-direction: column;
+}
+.control-con .list {
+  width: 100%;
+  padding: 15px;
+}
+.control-con .list .list-item {
+  list-style: none;
+  display: flex;
+}
+.control-con .list .list-item .list-item-link {
+  padding: 15px;
+  width: 100%;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 154.5%;
+  display: flex;
+  align-items: center;
+  color: #14191f;
+}
+.control-con .list .list-item .setState {
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 154.5%;
+  background: #eef2fe;
+  border-radius: 8px;
+  color: #14191f;
+}
+.control-con .list .list-item svg {
+  margin-right: 9px;
+}
+.control-con .list .list-item .profil-link {
+  text-decoration: none;
+}
+.control-con .list .list-item .profil-link .profil-con {
+  display: flex;
+  align-items: center;
+}
+.control-con .list .list-item .profil-link .profil-con .profil-img {
+  position: relative;
+}
+.control-con .list .list-item .profil-link .profil-con .profil-img img {
+  width: 55px;
+  height: 55px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.control-con .list .list-item .profil-link .profil-con .profil-img .online {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  position: absolute;
+  right: 2px;
+  top: 40px;
+}
+.control-con .list .list-item .profil-link .profil-con .profil-img .online .online-green {
+  position: absolute;
+  z-index: 111111111111;
+  top: 2px;
+  left: 2px;
+  width: 8px;
+  height: 8px;
+  background: #11e927;
+  box-shadow: 0px 3px 9px #00ff1a;
+  border-radius: 50%;
+}
+.control-con .list .list-item .profil-link .profil-con .profil-img .online::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: rgba(255, 255, 255, 0);
+  top: -5px;
+  left: 6px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 1px 1px 0 0 rgb(255, 255, 255);
+}
+.control-con .list .list-item .profil-link .profil-con .profil-img .online::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: rgba(255, 0, 0, 0);
+  top: 6px;
+  left: -4px;
+  border-bottom-right-radius: 40px;
+  transform: rotate(-22deg);
+  box-shadow: 1px 1px 0 0 rgb(255, 255, 255);
+}
+.control-con .list .list-item .profil-link .profil-con .profil-text {
+  line-height: 40px;
+}
+.control-con .list .list-item .profil-link .profil-con .profil-text .profil-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  color: #14191f;
+}
+.control-con .list .list-item .profil-link .profil-con .profil-text .profil-username {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #14191f;
+  opacity: 0.4;
+}/*# sourceMappingURL=layoutControl.css.map */

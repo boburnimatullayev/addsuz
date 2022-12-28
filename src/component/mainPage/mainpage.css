@@ -1,0 +1,12 @@
+.main-con {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.control {
+  width: 24%;
+}
+
+.routes {
+  width: 76%;
+}/*# sourceMappingURL=mainpage.css.map */
