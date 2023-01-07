@@ -6,8 +6,8 @@ import UserButton from './navbar-button/user-button/UserButton'
 
 const Navbar = () => {
   return (
-    <div>
-        <div className=" navbar container-site">
+    <div className='fixed' >
+        <div className=" navbar container-site ">
             <div className="navbar-con">
               <div className="logo">
                 <h1>logo</h1>

@@ -1,8 +1,9 @@
 import React from 'react'
+import "./brandes.scss"
 
 const Brandes = () => {
   return (
-    <div>Brandes</div>
+    <div className='brandes-con'>Brandes</div>
   )
 }
 

@@ -9,7 +9,7 @@ const Mainpage = () => {
   return (
     <>
      <div className="main-con container-site">
-     <div className="control">
+     <div className="control ">
         <LayoutControl />
         <Brandes />
      </div>

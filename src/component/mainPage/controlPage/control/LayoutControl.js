@@ -7,7 +7,7 @@ const LayoutControl = () => {
   const activeLink = "setState";
   const normalLink = "list-item-link";
   return (
-    <>
+    <div  className="con-fixed">
       <div className="control-con">
         <ul className="list">
           <li className="list-item">
@@ -145,7 +145,7 @@ const LayoutControl = () => {
       </div>
 
       <Outlet />
-    </>
+    </div>
   );
 };
 
