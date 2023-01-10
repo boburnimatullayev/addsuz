@@ -1,0 +1,82 @@
+@import "../../style/varable.scss";
+
+.news-con {
+  width: 100%;
+  height: auto;
+
+  margin-top: 30px;
+  padding-left: 20px;
+
+  .button-con {
+    width: 23%;
+    padding: 6px;
+    background-color: white;
+    border-radius: 8px;
+    button {
+      padding: 5px 25px;
+      background-color: $body-background;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      margin-right: 5px;
+      border-radius: 5px;
+      border: none;
+    }
+    .all-btn {
+      background-color: $button-background;
+      color: white;
+    }
+  }
+  .news-page {
+    width: 102%;
+    height: auto;
+    display: flex;
+     flex-wrap: wrap;
+    // background-color: red;
+    margin-top: 12px;
+
+    .news-item {
+      width: 48%;
+      margin-right: 12px;
+      margin-bottom: 10px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      .news-data {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #e1dfdf;
+      }
+      .news-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 130%;
+        color: #14191f;
+        margin-bottom: 40px;
+      }
+      .news-share-con{
+        display: flex;
+        div{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $grayBackground;
+            &:hover{
+                background-color: #e9e9e9;
+            }
+        }
+        
+        .news-chat{
+            margin-right: 8px;
+        }
+      }
+    }
+  }
+}
