@@ -1,5 +1,65 @@
-.brandes-con{
-    position: sticky;
-    top: 490px;
+@import "../../../../style/varable.scss";
+
+.brandes-con {
+  position: sticky;
+ top: 66%;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 50px;
+  .btand-title-con {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    .brand-title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 150%;
+      color: #14191f;
+    }
+    .brand-link {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      color: #1754f2;
+    }
+  }
+  .brand-con-page {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    .brand {
+      padding: 17px 23px;
+      background-color: $body-background;
+      margin: 5px;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      }
+      .brand-title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+     
     
+        color: #14191f;
+      }
+    }
+  }
 }
