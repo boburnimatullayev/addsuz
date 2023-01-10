@@ -1,12 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import img from "./profil.jpg";
+import Homepage from "../home/Homepage"
 
 import "./subscribed.scss";
 
 const Subscribed = () => {
   return (
     <div>
+      <Homepage />
       <div className="subscribed-opasity">
        
         <div className="subscribed-con">
