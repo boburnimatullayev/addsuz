@@ -7,9 +7,10 @@ import Navbar from "./component/navbar/Navbar";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+   
  
       <BrowserRouter>
+        <Navbar />
         <Mainpage />
       </BrowserRouter>
     </div>

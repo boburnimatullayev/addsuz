@@ -24,6 +24,7 @@ const Homepage = () => {
               >
                 {state ? "Follow me" : "Unfollow"}
               </button>
+           
             </div>
           </div>
           <div className="hompage-img">
